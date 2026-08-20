@@ -6,7 +6,7 @@ import { createContext } from 'react';
 
 
 export const AuthContext = createContext();
-
+// something
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
 axios.defaults.baseURL = backendUrl;
 
